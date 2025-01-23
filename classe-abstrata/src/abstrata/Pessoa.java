@@ -8,7 +8,7 @@ public abstract class Pessoa {
 
     private String telefone;
 
-    // Construtor
+    // Construtor Pessoa
     public Pessoa(String nome, String endreco, String telefone) {
         this.nome = nome;
         this.endereco = endreco;

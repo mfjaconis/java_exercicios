@@ -6,7 +6,7 @@ public class PessoaJuridica extends Pessoa {
 
     private String razaoSocial;
 
-    // Construtor
+    // Construtor PessoaJuridica
     public PessoaJuridica(String nome, String endereco, String telefone, String cnpj, String razaoSocial) {
         super(nome, endereco, telefone);
         this.cnpj = cnpj;
